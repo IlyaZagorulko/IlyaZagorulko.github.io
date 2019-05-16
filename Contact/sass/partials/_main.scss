@@ -1,0 +1,503 @@
+main {
+	display:block;
+	width:100%;
+	position: relative;
+
+	#first-main-section{
+		position: relative;
+		height: 1048px;
+		width: 100%;
+		background-image: url(../images/blue-stripes.png);
+		background-repeat: repeat-x;
+		.cell-container{
+			width: 1366px;
+			margin: 0 auto;
+			.first-cell{
+				display: block;
+				position: relative;
+				overflow: hidden;
+				height: 478px;
+				width: 666px;
+				background-image: url(../images/img-flat.png);
+				background-repeat: no-repeat;
+				float: left;
+				margin-top: 32px;
+				p{
+					display: block;
+					position: relative;
+					height: 68px;
+					width: 190px;
+					text-align: center;
+					padding-top: 10px;
+					box-sizing: border-box;
+					background-color: #ffffff;
+					opacity: 0.6;
+					font-family: 'Brutal Type';
+					font-size: 30px;
+					font-weight: 500;
+					line-height: 48px;
+					color: #57607b;
+					float: right;
+					margin-top: 410px;
+				}
+			}
+			.second-cell{
+				display: block;
+				position: relative;
+				overflow: hidden;
+				height: 478px;
+				width: 671px;
+				background-image: url(../images/img-house.png);
+				background-repeat: no-repeat;
+				float: right;
+				margin-top: 32px;
+				p{
+					display: block;
+					position: relative;
+					height: 68px;
+					width: 140px;
+					text-align: center;
+					padding-top: 10px;
+					box-sizing: border-box;
+					background-color: #ffffff;
+					opacity: 0.6;
+					font-family: 'Brutal Type';
+					font-size: 30px;
+					font-weight: 500;
+					line-height: 48px;
+					color: #57607b;
+					float: left;
+					margin-top: 410px;
+				}
+			}
+			.third-cell{
+				display: block;
+				position: relative;
+				overflow: hidden;
+				height: 478px;
+				width: 761px;
+				background-image: url(../images/img-office.png);
+				background-repeat: no-repeat;
+				float: left;
+				margin-top: 29px;
+				p{
+					display: block;
+					position: relative;
+					height: 68px;
+					width: 144px;
+					text-align: center;
+					padding-top: 10px;
+					box-sizing: border-box;
+					background-color: #ffffff;
+					opacity: 0.6;
+					font-family: 'Brutal Type';
+					font-size: 30px;
+					font-weight: 500;
+					line-height: 48px;
+					color: #57607b;
+					float: right;
+				}
+			}
+			.fourth-cell{
+				display: block;
+				position: relative;
+				overflow: hidden;
+				height: 478px;
+				width: 574px;
+				background-image: url(../images/img-stead.png);
+				background-repeat: no-repeat;
+				float: right;
+				margin-top: 29px;
+				p{
+					display: block;
+					position: relative;
+					height: 68px;
+					width: 170px;
+					text-align: center;
+					padding-top: 10px;
+					box-sizing: border-box;
+					background-color: #ffffff;
+					opacity: 0.6;
+					font-family: 'Brutal Type';
+					font-size: 30px;
+					font-weight: 500;
+					line-height: 48px;
+					color: #57607b;
+					float: left;
+				}
+			}
+		}
+	}
+	#second-main-section{
+		position: relative;
+		height: 965px;
+		width: 100%;
+		overflow: hidden;
+		.layout{
+			.mobile-menu{
+				display: none;
+			}
+			.vertical-menu{
+				display: flex;
+				height: 965px;
+				width: 128px;
+				flex-direction: column;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+				align-items: center;
+				align-content: center;
+				float: left;
+				li{
+					display: block;
+					position: relative;
+					overflow: hidden;
+					width: auto;
+					.stripe{
+						display: block;
+						position: relative;
+						margin: 0 auto;
+						margin-top: -40px;
+					}
+					.rhombus{
+						display: block;
+						position: relative;
+						margin: 0 auto;
+						margin-top: -55px;
+					}
+					a{
+						display: block;
+						position: relative;
+						padding-top: 25px;
+						font-family: 'Brutal Type';
+						font-size: 18px;
+						font-weight: 300;
+						color: #000000;
+					}
+					a:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+			.for-sale{
+				display: block;
+				position: relative;
+				width: 895px;
+				float: right;
+
+				h2{
+					font-family: 'Brutal Type';
+					font-size: 30px;
+					font-weight: 300;
+					color: #000000;
+					padding-top: 25px;
+					padding-bottom: 25px;
+					text-align: center;
+				}
+				.advantage{
+					font-family: 'Brutal Type';
+					font-size: 18px;
+					font-weight: 300;
+					line-height: 24px;
+					color: #000000;
+					text-align: center;
+					margin-bottom: 15px;
+				}
+				.specification{
+					display: block;
+					position: relative;
+					overflow: hidden;
+					margin: 0 auto;
+					margin-bottom: 15px;
+					width: 660px;
+					font-family: 'Brutal Type';
+					font-size: 18px;
+					font-weight: 300;
+					line-height: 24px;
+					color: #000000;
+					text-align: center;
+					text-align: center;
+
+
+				}
+				.left-list{
+					display: block;
+					position: relative;
+					float: left;
+					li{
+						display: block;
+						position: relative;
+						height: auto;
+						width: 240px;
+						margin-bottom: 15px;
+						h3{
+							font-family: 'Brutal Type';
+							font-size: 18px;
+							font-weight: 500;
+							line-height: 24px;
+							color: #000000;
+						}
+						p{
+							font-family: 'Brutal Type';
+							font-size: 14px;
+							font-weight: 300;
+							line-height: 20px;
+							color: #000000;
+						}
+					}
+				}
+				#center-lines{
+					display: block;
+					position: absolute;
+					height: 379px;
+					width: 486px;
+					top: 253px;
+					right: 235px;
+					background-image: url(../images/sale-lines.png);
+					background-repeat: no-repeat;
+					background-position: center;
+					z-index: 10;
+				}
+				#center-logo{
+					display: block;
+					position: absolute;
+					margin: 0 auto;
+					height: 269px;
+					width: 315px;
+					top: 310px;
+					left: 0;
+					right: 0;
+					background-image: url(../images/img-center-logo.png);
+					background-repeat: no-repeat;
+					background-position: center;
+					z-index: 10;
+				}
+				.right-list{
+					display: block;
+					position: relative;
+					float: right;
+					li{
+						display: block;
+						position: relative;
+						height: auto;
+						width: 240px;
+						margin-bottom: 15px;
+						h3{
+							font-family: 'Brutal Type';
+							font-size: 18px;
+							font-weight: 500;
+							line-height: 24px;
+							color: #000000;
+						}
+						p{
+							font-family: 'Brutal Type';
+							font-size: 14px;
+							font-weight: 300;
+							line-height: 20px;
+							color: #000000;
+						}
+					}
+				}
+				.our-tasks{
+					display: block;
+					position: relative;
+					overflow: hidden;
+					margin: 0 auto;
+					text-align: center;
+					width: 660px;
+					margin-top: 50px;
+					font-family: 'Brutal Type';
+					font-size: 18px;
+					font-weight: 300;
+					line-height: 24px;
+					color: #000000;
+				}
+				.contact-us{
+					display: block;
+					position: relative;
+					overflow: hidden;
+					margin: 0 auto;
+					text-align: center;
+					width: 630px;
+					margin-top: 30px;
+					font-family: 'Brutal Type';
+					font-size: 18px;
+					font-weight: 300;
+					line-height: 24px;
+					color: #000000;
+				}
+				.for-sale-callback{
+					display: block;
+					position: relative;
+					margin: 0 auto;
+					margin-top: 30px;
+					height: 64px;
+					width: 256px;
+					border: none;
+				  border-radius: 4px;
+				  box-sizing: border-box;
+				  text-align: center;
+					padding-top: 18px;
+					font-family: 'Brutal Type';
+					font-size: 24px;
+					font-weight: 300;
+					color: #ffffff;
+					background-color: #414f7e;
+					vertical-align: middle;
+				}
+				.for-sale-callback:hover{
+					color: #414f7e;
+					background-color: #b5d6ec;
+				}
+			}
+
+		}
+		#right-side-rhombus{
+			display: block;
+			position: absolute;
+			bottom: 0;
+			right: -290px;
+			height: 758px;
+			width: 754px;
+			background-image: url(../images/img-right-rhombus_1.png);
+			background-repeat: no-repeat;
+		}
+	}
+	#third-main-section{
+		position: relative;
+		height: 340px;
+		width: 100%;
+		background-color: #414f7e;
+		#right-side-down-rhombus{
+			display: block;
+			position: absolute;
+			right: -185px;
+			height: 264px;
+			width: 614px;
+			background-image: url(../images/img-right-rhombus_2.png);
+			background-repeat: no-repeat;
+		}
+		.feedback{
+			display: block;
+			position: relative;
+			width: 850px;
+			height: 340px;
+			margin: 0 auto;
+			.slick-prev:before{
+				display: block;
+				content:url(../images/left-arrow.png);
+			}
+			.slick-next:before{
+				content:url(../images/right-arrow.png);
+			}
+			.feedback-text{
+				display: block;
+				position: relative;
+				margin: 0 auto;
+				height: 340px;
+				p{
+					display: block;
+					position: relative;
+					margin: 0 auto;
+					padding-top: 90px;
+					padding-bottom: 10px;
+					width: 630px;
+					font-family: 'Brutal Type';
+					font-size: 24px;
+					font-weight: 300;
+					line-height: 30px;
+					color: #ffffff;
+				}
+				p::before{
+					content: " ";
+          width: 92px;
+          height: 70px;
+          background-image: url(../images/open-quote.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: absolute;
+					bottom: -35px;
+          left: -105px;
+				}
+				p::after{
+					content: " ";
+          width: 92px;
+          height: 70px;
+          background-image: url(../images/close-quote.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: absolute;
+					top: 50px;
+          right: -105px;
+				}
+				h4{
+					float: right;
+					padding-right: 80px;
+					font-family: 'Brutal Type';
+					font-size: 24px;
+					font-weight: 300;
+					line-height: 30px;
+					color: #ffffff;
+				}
+			}
+		}
+	}
+	#fourth-main-section{
+		position: relative;
+		height: 565px;
+		width: 100%;
+		background-color: #c3e0f8;
+		h3{
+			padding-top: 40px;
+			padding-bottom: 45px;
+			font-family: 'Brutal Type';
+			font-size: 30px;
+			font-weight: 300;
+			color: #000000;
+			text-align: center;
+		}
+		.team-container{
+			width: 1110px;
+			margin: 0 auto;
+			.our-team{
+				display: block;
+				position: relative;
+				height: 402px;
+				text-align: justify;
+				.slick-prev:before{
+					display: block;
+					content:url(../images/left-arrow.png);
+				}
+				.slick-next:before{
+					content:url(../images/right-arrow.png);
+				}
+				.person{
+					display: inline-block;
+					position: relative;
+					overflow: hidden;
+					height: 402px;
+					width: 256px;
+					padding-left: 10px;
+					h4{
+						display: block;
+						position: relative;
+						margin-top: -54px;
+						height: 54px;
+						width: 256px;
+						border: none;
+						box-sizing: border-box;
+						background-color: #ffffff;
+						opacity: 0.8;
+						text-align: center;
+						padding-top: 12px;
+						font-family: 'Brutal Type';
+						font-size: 24px;
+						font-weight: 300;
+						color: #000000;
+					}
+
+				}
+			}
+		}
+	}
+
+}
